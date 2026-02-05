@@ -1,5 +1,5 @@
 import { useParams, Link } from "@tanstack/react-router";
-import { useState } from "react";
+//import { useState } from "react";
 
 export default function PostDetail() {
   const { postId } = useParams({ strict: false });
